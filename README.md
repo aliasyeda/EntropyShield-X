@@ -4,10 +4,16 @@ Information Theory, AI Learning Dynamics & Security Analytics
 A research-oriented Python project exploring how Entropy, Cross-Entropy, and KL Divergence power modern:
 
 Machine Learning
+
 Deep Learning
+
+
 Transformers / LLMs
+
 AI Security Systems
+
 Cybersecurity Analytics
+
 Anomaly Detection
 
 ## This project demonstrates how probabilistic mathematics helps AI systems measure:
@@ -43,7 +49,7 @@ AI security monitoring
 This project was built to deeply understand those foundations through practical implementations and interpretable terminal-based simulations.
 
 ## Topics Covered
-1. Shannon Entropy
+## 1. Shannon Entropy
 
 Measures uncertainty/randomness in a probability distribution.
 
@@ -60,7 +66,8 @@ login IP diversity
 Interpretation
 Low entropy → predictable / confident
 High entropy → uncertain / random
-2. Cross-Entropy
+
+## 2. Cross-Entropy
 
 Measures how well predicted probabilities match the true labels.
 
@@ -83,7 +90,7 @@ LLM next-token prediction
 Interpretation
 Low cross-entropy → correct prediction
 High cross-entropy → wrong/confident prediction
-3. KL Divergence
+## 3. KL Divergence
 
 Measures how different two probability distributions are.
 
@@ -103,7 +110,7 @@ Low KL divergence → prediction close to reality
 High KL divergence → prediction far from reality
 Mathematical Relationship
 
-Cross-Entropy combines Entropy and KL Divergence:
+## Cross-Entropy combines Entropy and KL Divergence:
 
 Where:
 
@@ -113,7 +120,7 @@ H(P,Q) = cross-entropy
 
 This relationship is one of the most important identities in Information Theory and Machine Learning.
 
-Technologies Used
+## Technologies Used
 Python
 NumPy
 Probability Theory
@@ -132,13 +139,9 @@ EntropyShield-AI/
 └── README.md
 ## How to Run
 Install dependencies
+
 pip install -r requirements.txt
-Run the full analyzer
-python analyzer.py
-Run individual modules
-python entropy.py
-python cross_entropy.py
-python kl_divergence.py
+
 ## What This Project Demonstrates
 Entropy
 uncertainty measurement
@@ -213,6 +216,8 @@ LLMs
 AI Security
 Cybersecurity Analytics
 Intelligent Detection Systems
-Author
+## Author
+
+## SYEDA ALIA SAMIA
 
 Built as a research-oriented learning project focused on understanding the mathematical foundations of AI systems, Information Theory, and Security Analytics.
